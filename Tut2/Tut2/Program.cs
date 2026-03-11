@@ -6,7 +6,11 @@ public class Program
     {
         Console.WriteLine("Wpisz swoje imie");
         string napis = Console.ReadLine();
-        Console.WriteLine(napis);
-        Student student = new Student(25, "Jarek", 5.0f);
+        Console.WriteLine("Wpisz swoj wiek");
+        int wiek = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Wpisz swoja srednia ocen");
+        float srOcen = float.Parse(Console.ReadLine());
+        Student student = new Student(wiek, napis, srOcen);
+        student.printStud();
     }
 }
