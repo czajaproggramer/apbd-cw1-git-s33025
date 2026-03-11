@@ -9,9 +9,9 @@ public class Program
         Console.WriteLine("Wpisz swoj wiek");
         int wiek = Int32.Parse(Console.ReadLine());
         List<int> oceny = new List<int>();
-        oceny.Add(5);
-        oceny.Add(2);
-        oceny.Add(2);
+        oceny.Add(3);
+        oceny.Add(3);
+        oceny.Add(3);
         oceny.Add(4);
         oceny.Add(7);
         Student student = new Student(wiek, napis, oceny);
