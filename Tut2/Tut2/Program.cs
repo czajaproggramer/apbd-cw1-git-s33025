@@ -5,7 +5,7 @@ public class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Wpisz swoje imie");
-        string napis = Console.ReadLine();
+        string imie = Console.ReadLine();
         Console.WriteLine("Wpisz swoj wiek");
         int wiek = Int32.Parse(Console.ReadLine());
         List<int> oceny = new List<int>();
@@ -14,7 +14,7 @@ public class Program
         oceny.Add(3);
         oceny.Add(4);
         oceny.Add(7);
-        Student student = new Student(wiek, napis, oceny);
+        Student student = new Student(wiek, imie, oceny);
         student.printStud();
     }
 
