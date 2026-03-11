@@ -4,13 +4,21 @@ public class Student
 {
     private int wiek { get; set; }
     private string imie { get; set; }
+    private List<int> oceny { get; set; }
     private float sredniaOcen { get; set; }
 
-    public Student(int wiek, string imie, float sredniaOcen)
+    public Student(int wiek, string imie, List<int> oceny)
     {
         this.wiek = wiek;
         this.imie = imie;
-        this.sredniaOcen = sredniaOcen;
+        float srednia = 0;
+        foreach (int ocena in oceny)
+        {
+            srednia += ocena;
+        }
+
+        srednia /= oceny.Count();
+        sredniaOcen = srednia;
     }
     
     public void printStud()

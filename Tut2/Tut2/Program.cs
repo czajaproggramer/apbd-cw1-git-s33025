@@ -8,9 +8,13 @@ public class Program
         string napis = Console.ReadLine();
         Console.WriteLine("Wpisz swoj wiek");
         int wiek = Int32.Parse(Console.ReadLine());
-        Console.WriteLine("Wpisz swoja srednia ocen");
-        float srOcen = float.Parse(Console.ReadLine());
-        Student student = new Student(wiek, napis, srOcen);
+        List<int> oceny = new List<int>();
+        oceny.Add(5);
+        oceny.Add(2);
+        oceny.Add(2);
+        oceny.Add(4);
+        oceny.Add(3);
+        Student student = new Student(wiek, napis, oceny);
         student.printStud();
     }
 }
