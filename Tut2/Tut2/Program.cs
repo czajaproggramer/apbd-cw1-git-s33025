@@ -13,7 +13,7 @@ public class Program
         oceny.Add(2);
         oceny.Add(2);
         oceny.Add(4);
-        oceny.Add(3);
+        oceny.Add(7);
         Student student = new Student(wiek, napis, oceny);
         student.printStud();
     }
