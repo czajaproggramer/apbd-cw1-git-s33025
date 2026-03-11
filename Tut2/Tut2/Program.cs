@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Wpisz swoje imie");
+string napis = Console.ReadLine();;
+Console.WriteLine(napis);
