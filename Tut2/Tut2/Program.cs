@@ -23,4 +23,9 @@ public class Program
         Console.WriteLine("Ta funkcja powinna cos robic, ale nic nie robi;;((");
         return 67;
     }
+
+    static int CalculateMin(int[] values)
+    {
+        return 1;
+    }
 }
