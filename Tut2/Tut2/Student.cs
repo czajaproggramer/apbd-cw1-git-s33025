@@ -17,7 +17,7 @@ public class Student
             srednia += ocena;
         }
 
-        srednia /= oceny.Count();
+        srednia /= 5;
         sredniaOcen = srednia;
     }
     
