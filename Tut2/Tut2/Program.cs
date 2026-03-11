@@ -17,4 +17,10 @@ public class Program
         Student student = new Student(wiek, napis, oceny);
         student.printStud();
     }
+
+    static int CalculateMax(int[] values)
+    {
+        Console.WriteLine("Ta funkcja powinna cos robic, ale nic nie robi;;((");
+        return 67;
+    }
 }
