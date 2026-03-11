@@ -26,6 +26,7 @@ public class Program
 
     static int CalculateMin(int[] values)
     {
+        Console.WriteLine("Ta fk. tez nic nie robi hehe");
         return 1;
     }
 }
