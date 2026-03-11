@@ -18,6 +18,7 @@ public class Student
         }
 
         srednia /= 3;
+        srednia /= 5;
         sredniaOcen = srednia;
     }
     
